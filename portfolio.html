@@ -3,13 +3,14 @@
     <head>
          <style type="text/css">
             body {
-                background: rgb(125, 198, 205);
+                background: #8A2BE2;
+                background-image: url("http://cdn.quotesgram.com/img/93/96/1292001929-10632516_712398895508282_2008810790_a.jpg");
                 color: rgb(45, 45, 45);
                 padding: 10px;
-                font-family: arial;
+                font-family: "Times New Roman", Helvetica;
             }
             header {
-                font-size: 1.5em;
+                font-size: 2em;
                 font-weight: bold;
             }
             h1 {
@@ -22,10 +23,11 @@
 
             /* navigation menu */
             nav {
-                background: rgb(239, 80, 41);
+                background: rgba(0,191,255, 0.8);
                 margin: 0 auto;
                 display: flex;
                 padding: 10px;
+                border-radius: 10px;
             }
             nav header {
                 display: flex;
@@ -49,6 +51,10 @@
             main {
                 background: rgb(245, 238, 219);
                 display: flex;
+                border-radius: 10px;
+            }
+            [id=main-content]{
+                padding: 15px;
             }
             .content {
                 flex: 1;
@@ -58,7 +64,7 @@
             /* portfolio styles */
             #portfolio {
                 list-style-type: none;
-                padding-left: 0;
+                padding-left:0;
             }
 
             #portfolio li {
@@ -87,6 +93,10 @@
                 </li>
             </ul>
         </nav>
+        <div id="main-content">
+            <main>
+                <div class="sidebar">
+                 </div>
          <main>
             <div class="content">
                 <h1>My Portfolio</h1>
